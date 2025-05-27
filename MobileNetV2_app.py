@@ -14,7 +14,7 @@ def load_model():
 
 model = load_model()
 
-st.title("📷 Image Classifier using MobileNetV2")
+st.title("📷 Image Classifier using MobileNetV2 by Rafiq")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
 if uploaded_file:
